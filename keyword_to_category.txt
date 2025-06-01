@@ -1,0 +1,147 @@
+以下是chatgpt生成的内容
+
+keyword_to_category = {
+    # 关节与韧带
+    "ligament": "Ligament injury",
+    "cruciate": "Ligament injury",
+    "meniscus": "Knee injury",
+    "sprain": "Ligament injury",
+    "strain": "Muscle injury",
+    "tear": "Muscle/Ligament injury",
+    "rupture": "Ligament/Muscle injury",
+    "dislocation": "Joint injury",
+    "luxation": "Joint injury",
+    "subluxation": "Joint injury",
+    
+    # 肌肉问题
+    "muscle": "Muscle injury",
+    "adductor": "Muscle injury",
+    "thigh": "Muscle injury",
+    "calf": "Muscle injury",
+    "hamstring": "Muscle injury",
+    "quadriceps": "Muscle injury",
+    "gluteal": "Muscle injury",
+    "strain in the thigh": "Muscle injury",
+    "fiber tear": "Muscle injury",
+    "stiffness": "Muscle injury",
+    "fatigue": "Muscle injury",
+    "contusion": "Muscle injury",
+    "sore": "Muscle injury",
+
+    # 骨折
+    "fracture": "Fracture",
+    "broken": "Fracture",
+    "crack": "Fracture",
+    "fissure": "Fracture",
+    "hairline": "Fracture",
+
+    # 头部
+    "concussion": "Head injury",
+    "head": "Head injury",
+    "skull": "Head injury",
+    "eye": "Head injury",
+    "nose": "Head injury",
+    "cheekbone": "Head injury",
+    "jaw": "Head injury",
+    "ear": "Head injury",
+    "face": "Head injury",
+    "facial": "Head injury",
+
+    # 膝盖
+    "knee": "Knee injury",
+    "patellar": "Knee injury",
+    "meniscus": "Knee injury",
+
+    # 踝部
+    "ankle": "Ankle injury",
+    "achilles": "Ankle injury",
+    "heel": "Ankle injury",
+    "foot": "Foot injury",
+    "toe": "Foot injury",
+
+    # 背部和脊柱
+    "back": "Back injury",
+    "spine": "Back injury",
+    "vertebra": "Back injury",
+    "disc": "Back injury",
+    "lumbar": "Back injury",
+    "cervical": "Back injury",
+    "coccyx": "Back injury",
+
+    # 髋部与腹部
+    "hip": "Hip injury",
+    "groin": "Hip injury",
+    "pelvic": "Hip injury",
+    "pubic": "Hip injury",
+    "abdomen": "Abdominal injury",
+    "abdominal": "Abdominal injury",
+    "inguinal": "Hip injury",
+
+    # 手臂与手
+    "hand": "Upper limb injury",
+    "finger": "Upper limb injury",
+    "thumb": "Upper limb injury",
+    "wrist": "Upper limb injury",
+    "arm": "Upper limb injury",
+    "elbow": "Upper limb injury",
+    "forearm": "Upper limb injury",
+    "shoulder": "Upper limb injury",
+    "scaphoid": "Upper limb injury",
+    "metacarpal": "Upper limb injury",
+
+    # 小腿和下肢
+    "shin": "Lower leg injury",
+    "leg": "Lower leg injury",
+    "tibia": "Lower leg injury",
+    "fibula": "Lower leg injury",
+    "metatarsal": "Foot injury",
+
+    # 疾病类
+    "virus": "Illness",
+    "flu": "Illness",
+    "cold": "Illness",
+    "fever": "Illness",
+    "infection": "Illness",
+    "influenza": "Illness",
+    "corona": "Illness",
+    "covid": "Illness",
+    "mononucleation": "Illness",
+    "tonsillitis": "Illness",
+    "pneumonia": "Illness",
+    "bronchitis": "Illness",
+    "malaria": "Illness",
+    "appendicitis": "Illness",
+    "tooth": "Illness",
+    "cancer": "Illness",
+
+    # 疲劳与恢复
+    "fitness": "Conditioning",
+    "rest": "Conditioning",
+    "overstretching": "Conditioning",
+    "fatigue": "Conditioning",
+    "cramp": "Conditioning",
+
+    # 手术相关
+    "surgery": "Surgical recovery",
+    "arthroscopy": "Surgical recovery",
+    "appendectomy": "Surgical recovery",
+    "operation": "Surgical recovery",
+    "removal": "Surgical recovery",
+    "remove": "Surgical recovery",
+
+    # 其他
+    "bruise": "Contusion",
+    "bursitis": "Inflammation",
+    "inflammation": "Inflammation",
+    "edema": "Inflammation",
+    "tendon": "Tendon injury",
+    "capsule": "Joint injury",
+    "contracture": "Joint injury",
+    "testicle": "Other internal injury",
+    "hernia": "Abdominal injury",
+    "allergic": "Illness",
+    "depression": "Mental health",
+    "coma": "Neurological injury",
+    "pinched nerve": "Neurological injury",
+    "whiplash": "Neck injury",
+}
