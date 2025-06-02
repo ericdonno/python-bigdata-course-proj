@@ -101,7 +101,7 @@ class Player:
         self.add_healthy(-1) 
         
         if injury_data:
-            d = injury_data.pop() 
+            d = injury_data.pop()
             self.add_injured(d['days'], d['injury'], d['games_missed'])
             if d['util'] == '':
                 print(f"\n球员: {self.name} 无限期伤病")
@@ -122,11 +122,20 @@ class Player:
                         until = d['util']
                     until_date = datetime.strptime(until, '%b %d, %Y')
 
-                    healthy_days = (from_date - last_injury_end).days
-                    self.add_healthy(healthy_days)
+                    vec = (from_date - last_injury_end).days
+                    if vec >= 0:
+                        healthy_days = vec
+                        self.add_healthy(healthy_days)
 
-                    self.add_injured(d['days'], d['injury'], d['games_missed'])
-                    last_injury_end = until_date
+                        self.add_injured(d['days'], d['injury'], d['games_missed'])
+                        last_injury_end = until_date  # 新数据的untill
+                    else:
+                        self.add_healthy(0)
+                        self.add_injured(d['days'], d['injury'], d['games_missed'])
+                        # 不修改 last_injury_end
+                        
+                        
+                        
                     
     def get_inj_series(self):
         return [data['days'] for data in self.injury_history]
